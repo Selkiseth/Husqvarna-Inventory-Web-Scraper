@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as soup  
 from urllib.request import urlopen as uReq 
 
-url = "http://www.husqvarna.com/us/products/commercial-weed-trimmers/"
+url = input("Please enter the url \n >: ")
 
  # opens the connection and downloads html page from url
 uClient = uReq(url)
